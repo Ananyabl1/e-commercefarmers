@@ -1,0 +1,13 @@
+frontend
+Home
+product listing
+product details
+cart
+sign in
+sign up
+my list
+orders
+search
+my account
+contact
+about

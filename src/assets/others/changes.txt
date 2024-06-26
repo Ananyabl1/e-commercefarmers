@@ -1,0 +1,42 @@
+className countryList--> areaList
+
+viewAllBtn not working-- check
+
+#12 and #11 17min video li - try adding footer from onyx website
+
+#13- nodbeku
+
+#14- beda
+
+#15- modal nodbeku, listing
+#16 and #17- continuation - prod details and ratings- nodbeku
+
+#18- cart
+
+#19- signin - ananya maadthidaale- beda
+
+#20 and #21 - api starts from here - imp saved in mongodb
+
+admin product upload and list and all that needs to be done- an #22
+
+<div className='productZoom'>
+
+<Slider {...settings2} className='zoomSliderBig' ref={zoomSliderBig}>
+{
+    currentProduct.productImages !== undefined && currentProduct.productImages.map(imgUrl, index) => {
+        return(
+            <div className='item'>
+                <InnerImageZoom
+                    zoomType="hover zoomScale={1}
+                    src={`${imgUral}?im=Resize=(${bigImageSize[0]}, ${bigImageSize[1]})`} />
+            </div>
+        )
+    }
+}
+</Slider>
+
+</div>
+
+tmr to-do --> before 5- 15, 16 - ananya 2 varge
+2.30 indha --> 17, 18 - me
+5 indha- 
